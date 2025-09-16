@@ -1,7 +1,7 @@
 import React from 'react';
 import img from '../assets/Demo.png';
 import '../cards.css';
-function Cards() {
+function Cards(props) {
   return (
     <>
     <div className="cards">
@@ -9,8 +9,8 @@ function Cards() {
         <div className="card-image">
             <img src={img} alt="" />
         </div>
-        <h3>Ironman</h3>
-        <p>I am Ironman</p>
+        <h3>{props.name}</h3>
+        <p>{props.desc}</p>
     </div>
     </div>
     </>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <ul id="list">
+    <li>Apple</li>
+    <li>Banana</li>
+    <li id="removeMe">Mango</li>
+  </ul>
+  <button onclick="removeItem()">Remove Mango</button>
+
+  <script>
+    function removeItem() {
+      let item = document.getElementById("removeMe");
+      item.remove(); // removes element from DOM
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <button id="btn">Click Me</button>
+  <p id="msg"></p>
+
+  <script>
+    let btn = document.getElementById("btn");
+    btn.addEventListener("click", function () {
+      document.getElementById("msg").innerText = "Button was clicked!";
+    });
+  </script>
+</body>
+</html>

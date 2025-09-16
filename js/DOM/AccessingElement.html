@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <h1 id="title">Hello DOM</h1>
+  <p class="para">This is a paragraph.</p>
+  <button onclick="changeText()">Click Me</button>
+
+  <script>
+    function changeText() {
+      // Access by ID
+      let heading = document.getElementById("title");
+      heading.innerText = "Title Changed!";
+
+      // Access by class
+      let paragraph = document.querySelector(".para");
+      paragraph.style.color = "blue"; // change color
+    }
+  </script>
+</body>
+</html>
+

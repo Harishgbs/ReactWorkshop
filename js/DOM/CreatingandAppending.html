@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div id="container"></div>
+  <button onclick="addItem()">Add Item</button>
+  <script>
+    function addItem() {
+      let newItem = document.createElement("p"); // create element
+      newItem.innerText = "I am a new paragraph!"; // add text
+      document.getElementById("container").appendChild(newItem); // append
+    }
+  </script>
+</body>
+</html>

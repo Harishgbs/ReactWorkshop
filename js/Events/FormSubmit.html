@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <form id="myForm">
+    <input type="text" placeholder="Enter name" required />
+    <button type="submit">Submit</button>
+  </form>
+  <p id="output"></p>
+  <script>
+    let form = document.getElementById("myForm");
+    form.addEventListener("submit", function (event) {
+      event.preventDefault(); // stop page refresh
+      document.getElementById("output").innerText = "Form Submitted!";
+    });
+  </script>
+</body>
+</html>

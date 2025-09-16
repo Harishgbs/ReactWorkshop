@@ -1,5 +1,4 @@
 import React from 'react'
-
 function EventHandling() {
     function DetectChange(x){
         console.log(x.target.value)

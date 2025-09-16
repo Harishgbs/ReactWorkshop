@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       {/* <PropsDemo name="Harish" age="20" course="CSE"/> */}
-      <ListRenderingDemo/>
+      <Cards name="Ironman" desc="I am Iron"/>
     </>
   )
 }

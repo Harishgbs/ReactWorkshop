@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <input type="text" id="inputBox" placeholder="Type something..." />
+  <p id="display"></p>
+  <script>
+    let input = document.getElementById("inputBox");
+    input.addEventListener("keyup", function (event) {
+      document.getElementById("display").innerText = 
+        "You typed: " + input.value;
+    });
+  </script>
+</body>
+</html>

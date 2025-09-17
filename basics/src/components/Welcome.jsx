@@ -2,7 +2,10 @@ import React from 'react'
 function Welcome() {
   return (
     <>
-        <h1>Welcome to React Workshop</h1>
+        <marquee>Welcome to SSITS</marquee>
+        <p>
+          SSITS was established in the year 2001 in Rayachoty with a noble objective of promoting technical education in the backward region of Kadapa dist.
+        </p>
     </>
   )
 }

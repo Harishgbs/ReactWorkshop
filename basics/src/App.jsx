@@ -10,8 +10,13 @@ import Cards from './components/Cards'
 function App() {
   return (
     <>
-      {/* <PropsDemo name="Harish" age="20" course="CSE"/> */}
-      <Cards name="Ironman" desc="I am Iron"/>
+      <Cards name="Ironman" desc="I am Ironman"/>
+      <Cards name="Spiderman" desc="I am Spiderman"/>
+      <Cards name="Ironman" desc="I am Ironman"/>
+      <Cards name="Ironman" desc="I am Ironman"/>
+      <Cards name="Ironman" desc="I am Ironman"/>
+      <Cards name="Ironman" desc="I am Ironman"/>
+      <Cards name="Ironman" desc="I am Ironman"/>
     </>
   )
 }
